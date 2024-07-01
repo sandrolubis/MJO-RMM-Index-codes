@@ -18,3 +18,5 @@ Run the Python script read_PC1_PC2.py.
 
 
 **(2) Follow these steps (for OBS or single model ):**
+
+Follow above steps, but before 3, run this code: "get_EOF_HighResMIP.ncl"
