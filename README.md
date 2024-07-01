@@ -1,4 +1,4 @@
-Follow these steps:
+Follow these steps (for model projection):
 
 Step 1: Prepare Variables and Fill Missing Values
 Create a directory named input.
