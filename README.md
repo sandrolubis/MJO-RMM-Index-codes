@@ -1,27 +1,17 @@
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{parskip}
+Follow these steps:
 
-\begin{document}
+Step 1: Prepare Variables and Fill Missing Values
+Create a directory named input.
+Run the script Prepare_needed_vars_for_RMM.ncl to fill in missing values in the data.
 
-\section*{Instructions}
+Step 2: Calculate Anomalies
+Create a directory named anom.
+Run the script get_anom_HighResMIP.ncl to calculate anomalies by removing the first three harmonics.
 
-\textbf{Step 1:} \\
-Running \texttt{Prepare\_needed\_vars\_for\_RMM.ncl} $\rightarrow$ Fill Missing Values in the data. Before running this, make a directory \texttt{input} first.
+Step 3: Calculate RMM Index
+Create a directory named final_output.
+Run the script get_RMM_HighResMIP.ncl to calculate the RMM index based on the observed EOF pattern from OBS.
 
-\vspace{0.5cm}
-
-\textbf{Step 2:} \\
-Running \texttt{get\_anom\_HighResMIP.ncl} $\rightarrow$ calculate anomalies (remove first three harmonics). Before running this, make a directory \texttt{anom} first.
-
-\vspace{0.5cm}
-
-\textbf{Step 3:} \\
-Running \texttt{get\_RMM\_HighResMIP.ncl} $\rightarrow$ calculate RMM index based on observed EOF pattern from OBS. Before running this, make a directory \texttt{final\_output} first.
-
-\vspace{0.5cm}
-
-\textbf{Step 4:} \\
-Go to the directory \texttt{final\_output} and then run the Python code \texttt{read\_PC1\_PC2.py}.
-
-\end{document}
+Step 4: Run Python Code
+Navigate to the directory final_output.
+Run the Python script read_PC1_PC2.py.
