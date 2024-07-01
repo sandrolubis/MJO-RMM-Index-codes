@@ -15,3 +15,6 @@ Run the script get_RMM_HighResMIP.ncl to calculate the RMM index based on the ob
 Step 4: Run Python Code
 Navigate to the directory final_output.
 Run the Python script read_PC1_PC2.py.
+
+
+**Follow these steps (for OBS or single model ):**
