@@ -1,4 +1,4 @@
-**Follow these steps (for model projection):**
+**(1) Follow these steps (for model projection):**
 
 Step 1: Prepare Variables and Fill Missing Values
 Create a directory named input.
@@ -17,4 +17,4 @@ Navigate to the directory final_output.
 Run the Python script read_PC1_PC2.py.
 
 
-**Follow these steps (for OBS or single model ):**
+**(2) Follow these steps (for OBS or single model ):**
