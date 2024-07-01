@@ -1,3 +1,11 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{parskip}
+
+\begin{document}
+
+\section*{Instructions}
+
 \textbf{Step 1:} \\
 Running \texttt{Prepare\_needed\_vars\_for\_RMM.ncl} $\rightarrow$ Fill Missing Values in the data. Before running this, make a directory \texttt{input} first.
 
@@ -15,3 +23,5 @@ Running \texttt{get\_RMM\_HighResMIP.ncl} $\rightarrow$ calculate RMM index base
 
 \textbf{Step 4:} \\
 Go to the directory \texttt{final\_output} and then run the Python code \texttt{read\_PC1\_PC2.py}.
+
+\end{document}
