@@ -1,6 +1,6 @@
 # MJO RMM Index Codes
 
-**Author:** Sandro W. Lubis
+**Author:** Sandro W. Lubis (PNNL)
 
 This repository contains NCL and Python scripts for calculating the **Real-time Multivariate MJO (RMM) Index** from observational or model data.
 
