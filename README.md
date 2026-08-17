@@ -1,4 +1,4 @@
-# MJO RMM Index Codes
+# MJO RMM Index Based on Multivariate EOF Analysis
 
 **Author:** Sandro W. Lubis (PNNL)
 
