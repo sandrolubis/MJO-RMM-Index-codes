@@ -257,3 +257,4 @@ This repository is distributed under the **MIT License**. See the `LICENSE` file
 ## Contact
 
 For questions about the code or its application, please open an issue in this repository.
+slubis.geomar@gmail.com
